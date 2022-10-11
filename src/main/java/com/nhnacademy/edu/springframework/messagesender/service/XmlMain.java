@@ -7,11 +7,17 @@ public class XmlMain {
     public static void main(String[] args) {
         try {
             ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
-            MessageSender smsMessageSender = context.getBean("smsMessageSender", MessageSender.class);
-            MessageSender emailMessageSender = context.getBean("emailMessageSender", MessageSender.class);
+//            MessageSender smsMessageSender = context.getBean("smsMessageSender", MessageSender.class);
+//            MessageSender emailMessageSender = context.getBean("emailMessageSender", MessageSender.class);
 
-            new MessageSendService(smsMessageSender).doSendMessage();
-            new MessageSendService(emailMessageSender).doSendMessage();
+            new MessageSendService(context.getBean("smsMessageSender", MessageSender.class)).doSendMessage();
+            System.out.println("---------------------");
+            new MessageSendService(context.getBean("smsMessageSender", MessageSender.class)).doSendMessage();
+            System.out.println("---------------------");
+            new MessageSendService(context.getBean("emailMessageSender", MessageSender.class)).doSendMessage();
+            System.out.println("---------------------");
+            new MessageSendService(context.getBean("emailMessageSender", MessageSender.class)).doSendMessage();
+            System.out.println("---------------------");
         } catch (Exception e) {
             e.printStackTrace();
         }
