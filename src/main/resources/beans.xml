@@ -6,11 +6,15 @@
 
 
     <bean id="smsMessageSender" class="com.nhnacademy.edu.springframework.messagesender.service.SmsMessageSender"
-    scope="singleton">
+    scope="singleton" init-method="init" destroy-method="cleanUp">
     </bean>
 
     <bean id="emailMessageSender" class="com.nhnacademy.edu.springframework.messagesender.service.EmailMessageSender"
     scope="prototype">
+    </bean>
+
+    <bean id="messageSenderService" class="com.nhnacademy.edu.springframework.messagesender.service.MessageSendService">
+        <constructor-arg ref="smsMessageSender"/>
     </bean>
 
 </beans>
