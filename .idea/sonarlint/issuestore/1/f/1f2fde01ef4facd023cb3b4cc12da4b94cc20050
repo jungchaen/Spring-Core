@@ -1,0 +1,9 @@
+
+W
+java:S1191"5Use classes from the Java API instead of Sun classes.(€õŒ¦ùÿÿÿÿ8øØÙ«¼0
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(¨‰Òúüÿÿÿÿ8ÌŞé¥¼0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‹¸ÒŠşÿÿÿÿ8ÆƒŞª¼0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(›“£ÿÿÿÿÿ8‚ÙÙ«¼0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ù×µÊûÿÿÿÿ8Æ¡¬¼0
+f
+java:S1128"DRemove this unused import 'com.sun.java.accessibility.util.EventID'.(€õŒ¦ùÿÿÿÿ8½Šì«¼0
