@@ -9,7 +9,12 @@ public class MessageSendService {
 
     }
 
-    public void setMessageSender(MessageSender messageSender) {
+/*    public void setMessageSender(MessageSender messageSender) {
+        System.out.println("set MessageSender");
+        this.messageSender = messageSender;
+    }*/
+
+        public void setEmailMessageSender(MessageSender messageSender) {
         System.out.println("set MessageSender");
         this.messageSender = messageSender;
     }
