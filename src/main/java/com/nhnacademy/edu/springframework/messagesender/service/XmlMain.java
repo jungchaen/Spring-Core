@@ -14,9 +14,9 @@ public class XmlMain {
 //            MessageSender smsMessageSender = context.getBean("smsMessageSender", MessageSender.class);
 //            MessageSender emailMessageSender = context.getBean("emailMessageSender", MessageSender.class);
 
-            new MessageSendService(context.getBean("smsMessageSender", MessageSender.class)).doSendMessage();
-            System.out.println("---------------------");
-            new MessageSendService(context.getBean("smsMessageSender", MessageSender.class)).doSendMessage();
+//            new MessageSendService(context.getBean("smsMessageSender", MessageSender.class)).doSendMessage();
+//            System.out.println("---------------------");
+//            new MessageSendService(context.getBean("smsMessageSender", MessageSender.class)).doSendMessage();
             System.out.println("---------------------");
             new MessageSendService(context.getBean("emailMessageSender", MessageSender.class)).doSendMessage();
             System.out.println("---------------------");

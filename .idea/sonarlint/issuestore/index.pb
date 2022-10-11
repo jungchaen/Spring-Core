@@ -13,9 +13,3 @@ Ysrc/main/java/com/nhnacademy/edu/springframework/messagesender/service/MessageS
 ^src/main/java/com/nhnacademy/edu/springframework/messagesender/service/EmailMessageSender.java,1\0\10a19c130d480f4374355bfce47060919f47f496
 ‹
 [src/main/java/com/nhnacademy/edu/springframework/messagesender/service/ConstructorMain.java,2\0\206fc75751c1889f6358dfba8d2b3fc20debf2ed
-†
-Vsrc/main/java/com/nhnacademy/edu/springframework/messagesender/service/SetterMain.java,f\e\fe77999c752e9f60c0a987879ff744226e8aa8a3
-Ž
-^src/main/java/com/nhnacademy/edu/springframework/messagesender/service/MessageSendService.java,d\d\dd341764b1c5a2104f110600822d9c22ccae49a4
-ƒ
-Ssrc/main/java/com/nhnacademy/edu/springframework/messagesender/service/XmlMain.java,6\6\66bb0a7c9f166f5e8006c87ed5b2e768bdbadc37
