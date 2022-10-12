@@ -1,0 +1,9 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÙÄÆúÿÿÿÿ8µ¥×¼0
+]	java:S125"<This block of commented-out lines of code should be removed.(×ÒÅ«úÿÿÿÿ8¹ì¢×¼0
+~
+java:S1128"\Remove this unused import 'com.nhnacademy.edu.springframework.messagesender.annotation.SMS'.(¦éõ–ıÿÿÿÿ8÷ŒéÔ¼0
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8Ş»¢×¼0
+E
+java:S1068"(Remove this unused "name" private field.(Ë¥¼8»ì¢×¼0

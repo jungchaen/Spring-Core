@@ -1,0 +1,10 @@
+
+l
+java:S1192"VDefine a constant instead of duplicating this literal "---------------------" 3 times.(¨³Ë
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¨³Ë
+V	java:S125"<This block of commented-out lines of code should be removed.(àËÆıÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(”ïü‚ûÿÿÿÿ8ÃÍ¶¼0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¨³Ë
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨³Ë8ÂË¶¼0
+t
+java:S1128"RRemove this unused import 'com.nhnacademy.edu.springframework.messagesender.User'.(÷ùÏÓüÿÿÿÿ8ÆïêÒ¼0

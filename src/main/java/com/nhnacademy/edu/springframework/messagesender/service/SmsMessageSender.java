@@ -2,7 +2,9 @@ package com.nhnacademy.edu.springframework.messagesender.service;
 
 import com.nhnacademy.edu.springframework.messagesender.User;
 import com.sun.java.accessibility.util.EventID;
+import org.springframework.stereotype.Component;
 
+@Component
 public class SmsMessageSender implements MessageSender{
 
     public SmsMessageSender() {
