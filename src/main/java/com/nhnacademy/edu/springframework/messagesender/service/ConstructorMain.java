@@ -1,5 +1,6 @@
 package com.nhnacademy.edu.springframework.messagesender.service;
 
+import org.aspectj.lang.ProceedingJoinPoint;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class ConstructorMain {
@@ -7,7 +8,6 @@ public class ConstructorMain {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:/beans.xml");
 
         MessageSendService service = context.getBean("messageSenderService", MessageSendService.class);
-
         service.doSendMessage();
     }
 }
